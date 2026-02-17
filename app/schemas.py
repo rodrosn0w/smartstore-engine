@@ -10,3 +10,4 @@ class ProductoBase(BaseModel):
 class VentaCreate(BaseModel):
     producto_id: int
     cantidad: int
+    pago_con: float
